@@ -107,10 +107,12 @@
                 android:layout_height="35dp"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/backlayout"
+                android:onClick="onClickStepsActivity5"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+                tools:ignore="TouchTargetSizeCheck">
 
                 <ImageView
                     android:id="@+id/imageView4"
@@ -145,10 +147,12 @@
                 android:layout_height="35dp"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/backlayout"
+                android:onClick="onClickStepsActivity6"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+                tools:ignore="TouchTargetSizeCheck">
 
                 <ImageView
                     android:id="@+id/imageView5"
@@ -178,6 +182,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:onClick="onClickStepsActivity7"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:layout_marginTop="5dp"
