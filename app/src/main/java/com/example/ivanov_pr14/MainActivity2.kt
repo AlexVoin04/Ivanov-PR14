@@ -14,4 +14,8 @@ class MainActivity2 : AppCompatActivity() {
         val intent = Intent(this, MainActivity3::class.java)
         startActivity(intent)
     }
+    fun onClickStepsActivity4(view: View){
+        val intent = Intent(this, MainActivity4::class.java)
+        startActivity(intent)
+    }
 }
